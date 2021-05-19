@@ -72,6 +72,7 @@ class IndecisionApp extends React.Component {
     }
     render() {
         const title = "INDECISION APP"
+        const editor="Made by AKM"
         const subtitle = "Let us tell you what to do!"
 
         return (
@@ -80,6 +81,7 @@ class IndecisionApp extends React.Component {
                 <Header
                     title={title}
                     subtitle={subtitle}
+                    editor={editor}
                 />
                 <div className='container'>
                     <Actions
